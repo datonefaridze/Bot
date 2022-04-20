@@ -1,0 +1,6 @@
+# ignore everything
+*
+
+# allow model file
+!models/
+!requirements.txt
