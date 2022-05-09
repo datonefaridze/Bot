@@ -3,49 +3,85 @@ version: "3.0"
 nlu:
 - intent: if_have
   examples: |
-    - გამარჯობა, [კაბა](dress)ი გაქვთ?
-    - გამარჯობა, [ლურჯი](blue) [კაბა](dress)ი გაქვთ?
-    - გამარჯობა, [ქუდი](hat)ი გაქვთ?
-    - გამარჯობა, [ცისფერი](light_blue) [ქუდი](hat)ი გაქვთ?
-    - გამარჯობა, [შარვალი](pants)ი გაქვთ?
-    - გამარჯობა, [იისფერი](purple) [შარვალი](pants)ი გაქვთ?
-    - გამარჯობა, [პერანგი](shirt)ი გაქვთ?
-    - გამარჯობა, [შავი](black) [პერანგი](shirt)ი გაქვთ?
-    - გამარჯობა, [მაისური](t_shirt)ი გაქვთ?
-    - გამარჯობა, [ყვითელი](yellow) [მაისური](t_shirt)ი გაქვთ?
+    - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+
+    - გამარჯობა, [L]{"entity": "size", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [XS]{"entity": "size", "group": "1"} [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [M]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [XL]{"entity": "size", "group": "1"} [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [S]{"entity": "size", "group": "1"} [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [XS]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
 
 - intent: ask_price
   examples: |
-    - გამარჯობა, [კაბა](dress)ის ფასი რაარის?
-    - გამარჯობა, [ლურჯი](blue) [კაბა](dress)ის ფასი რაარის?
-    - გამარჯობა, [კაბა](dress) რა ღირს?
-    - გამარჯობა, [ლურჯი](blue) [კაბა](dress) რა ღირს?
-    - გამარჯობა, [ქუდი](hat)ის ფასი რაარის?
-    - გამარჯობა, [ცისფერი](light_blue) [ქუდი](hat)ის ფასი რაარის?
-    - გამარჯობა, [ქუდი](hat) რა ღირს?
-    - გამარჯობა, [ცისფერი](light_blue) [ქუდი](hat) რა ღირს?
-    - გამარჯობა, [შარვალი](pants)ის ფასი რაარის?
-    - გამარჯობა, [იისფერი](purple) [შარვალი](pants)ის ფასი რაარის?
-    - გამარჯობა, [შარვალი](pants) რა ღირს?
-    - გამარჯობა, [იისფერი](purple) [შარვალი](pants) რა ღირს?
-    - გამარჯობა, [პერანგი](shirt)ის ფასი რაარის?
-    - გამარჯობა, [შავი](black) [პერანგი](shirt)ის ფასი რაარის?
-    - გამარჯობა, [პერანგი](shirt) რა ღირს?
-    - გამარჯობა, [შავი](black) [პერანგი](shirt) რა ღირს?
-    - გამარჯობა, [მაისური](t_shirt)ის ფასი რაარის?
-    - გამარჯობა, [ყვითელი](yellow) [მაისური](t_shirt)ის ფასი რაარის?
-    - გამარჯობა, [მაისური](t_shirt) რა ღირს?
-    - გამარჯობა, [ყვითელი](yellow) [მაისური](t_shirt) რა ღირს?
+    - გამარჯობა, [XS]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
+    - გამარჯობა, [S]{"entity": "size", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [M]{"entity": "size", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XL]{"entity": "size", "group": "1"} [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [L]{"entity": "size", "group": "1"} [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
 
+    - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"} რა ღირს?
+    - გამარჯობა, [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"} რა ღირს?
+    - გამარჯობა, [ქუდი]{"entity": "hat", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
+    - გამარჯობა, [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
+    - გამარჯობა, [შარვალი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [შარვალი]{"entity": "pants", "group": "1"} რა ღირს?
+    - გამარჯობა, [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"} რა ღირს?
+    - გამარჯობა, [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
 - intent: ask_range
   examples: |
-    - სალამი, [კაბა](dress)ი რა ფასებში გაქვთ?
-    - სალამი, [ლურჯი](blue) [კაბა](dress)ი რა ფასებში გაქვთ?
-    - სალამი, [ქუდი](hat)ი რა ფასებში გაქვთ?
-    - სალამი, [ცისფერი](light_blue) [ქუდი](hat)ი რა ფასებში გაქვთ?
-    - სალამი, [შარვალი](pants)ი რა ფასებში გაქვთ?
-    - სალამი, [იისფერი](purple) [შარვალი](pants)ი რა ფასებში გაქვთ?
-    - სალამი, [პერანგი](shirt)ი რა ფასებში გაქვთ?
-    - სალამი, [შავი](black) [პერანგი](shirt)ი რა ფასებში გაქვთ?
-    - სალამი, [მაისური](t_shirt)ი რა ფასებში გაქვთ?
-    - სალამი, [ყვითელი](yellow) [მაისური](t_shirt)ი რა ფასებში გაქვთ?
+    - სალამი, [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+
+    - სალამი, [XXL]{"entity": "size", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [XXS]{"entity": "size", "group": "1"} ზომის [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [XS]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [S]{"entity": "size", "group": "1"} ზომის [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [M]{"entity": "size", "group": "1"} ზომის [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [L]{"entity": "size", "group": "1"} ზომის [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [XL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [XXL]{"entity": "size", "group": "1"} ზომის [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [XXS]{"entity": "size", "group": "1"} ზომის [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
