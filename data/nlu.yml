@@ -74,7 +74,6 @@ nlu:
     - სალამი, [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-
     - სალამი, [XXL]{"entity": "size", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXS]{"entity": "size", "group": "1"} ზომის [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XS]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
@@ -85,3 +84,17 @@ nlu:
     - სალამი, [XXL]{"entity": "size", "group": "1"} ზომის [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXS]{"entity": "size", "group": "1"} ზომის [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+
+
+- intent: how_many_clothes
+  examples: |
+    - სალამი, რამდენი [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - სალამი, რამდენი [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - ჰაი, მარაგში რამდენი [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ საწყობში?
+    - გამარჯობა, რა რაოდენობის [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - სალამი, რამდენი [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - სალამი, რა რაოდენობის [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა,  რა რაოდენობის [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - სალამი, რამდენი [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ გადანახული??
+    - ჰაი, რამდენი [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
