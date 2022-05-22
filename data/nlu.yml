@@ -25,7 +25,7 @@ nlu:
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა, [XS]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
 
-- intent: ask_price
+- intent: ask_range
   examples: |
     - გამარჯობა, [XS]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
@@ -41,7 +41,6 @@ nlu:
     - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
-
     - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"} რა ღირს?
@@ -62,8 +61,6 @@ nlu:
     - გამარჯობა, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
     - გამარჯობა, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
-- intent: ask_range
-  examples: |
     - სალამი, [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
@@ -84,7 +81,6 @@ nlu:
     - სალამი, [XXL]{"entity": "size", "group": "1"} ზომის [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXS]{"entity": "size", "group": "1"} ზომის [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-
 
 - intent: how_many_clothes
   examples: |
