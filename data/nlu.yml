@@ -3,134 +3,134 @@ version: "3.0"
 nlu:
 - intent: if_have
   examples: |
-    - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [მწვანე]{"entity": "green", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [თეთრი]{"entity": "white", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [კაბები]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [მწვანე]{"entity": "green", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [ქუდები]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [თეთრი]{"entity": "white", "group": "1"} [ქუდები]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა, [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა, [ნარინჯისფერი]{"entity": "orange", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა, [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა, [წითელი]{"entity": "red", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა, [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა, [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [L]{"entity": "size", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [XS]{"entity": "size", "group": "1"} [მწვანე]{"entity": "green", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [M]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [L]{"entity": "size", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [XS]{"entity": "size", "group": "1"} [მწვანე]{"entity": "green", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [M]{"entity": "size", "group": "1"} [ქუდები]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [თეთრი]{"entity": "white", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა, [XL]{"entity": "size", "group": "1"} [ნარინჯისფერი]{"entity": "orange", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [S]{"entity": "size", "group": "1"} [წითელი]{"entity": "red", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, [S]{"entity": "size", "group": "1"} [წითელი]{"entity": "red", "group": "1"} [პრანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა, [XS]{"entity": "size", "group": "1"} [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [ტყავის]{"entity": "Leather", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [ტყავის]{"entity": "Leather", "group": "1"} [პრანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [ტყავის]{"entity": "Leather", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [ბამბის]{"entity": "Cotton", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [ბამბის]{"entity": "Cotton", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [ბამბის]{"entity": "Cotton", "group": "1"} [პრანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [ბამბის]{"entity": "Cotton", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [აბრეშუმის]{"entity": "Silk", "group": "1"} [პრანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [მატყლის]{"entity": "Wool", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [მატყლის]{"entity": "Wool", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [მატყლის]{"entity": "Wool", "group": "1"} [პრანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [მატყლის]{"entity": "Wool", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ? [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პრანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
     - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [პრანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
     - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [პრანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [L]{"entity": "size", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [XS]{"entity": "size", "group": "1"} [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [M]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [XL]{"entity": "size", "group": "1"} [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [S]{"entity": "size", "group": "1"} [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - გამარჯობა, [XS]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [პრანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [შავი]{"entity": "black", "group": "1"} [პრანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [L]{"entity": "size", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [XS]{"entity": "size", "group": "1"} [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [M]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [XXL]{"entity": "size", "group": "1"} [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [XXL]{"entity": "size", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [XL]{"entity": "size", "group": "1"} [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [XXL]{"entity": "size", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [S]{"entity": "size", "group": "1"} [შავი]{"entity": "black", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
+    - ჰაი, რას შვებით?, [XS]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
     - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - სალამი [ტყავის]{"entity": "Leather", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
     - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - სალამი [ბამბის]{"entity": "Cotton", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
     - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - სალამი [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
     - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - სალამი [მატყლის]{"entity": "Wool", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
     - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - სალამი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ი გაქვთ?
     - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - სალამი [ჯინსის]{"entity": "Denim", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
     - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - სალამი [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
 - intent: ask_range
   examples: |
-    - გამარჯობა, [XS]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
+    - ჰაი, რას შვებით?, [XS]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [თეთრი]{"entity": "white", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
     - გამარჯობა, [S]{"entity": "size", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [ნარინჯისფერი]{"entity": "orange", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [M]{"entity": "size", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"} რა ღირს?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ნარინჯისფერი]{"entity": "orange", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"} რა ღირს?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [XL]{"entity": "size", "group": "1"} [წითელი]{"entity": "red", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
-    - გამარჯობა, [L]{"entity": "size", "group": "1"} [წითელი]{"entity": "red", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XL]{"entity": "size", "group": "1"} [წითელი]{"entity": "red", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [L]{"entity": "size", "group": "1"} [წითელი]{"entity": "red", "group": "1"} [პერანგები]{"entity": "shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"} რა ღირს?
     - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [მწვანე]{"entity": "green", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [მწვანე]{"entity": "green", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"} რა ღირს?
     - გამარჯობა, [მწვანე]{"entity": "green", "group": "1"} [კაბა]{"entity": "dress", "group": "1"} რა ღირს?
     - გამარჯობა, [ქუდი]{"entity": "hat", "group": "1"}ის ფასი რაარის?
@@ -145,21 +145,21 @@ nlu:
     - გამარჯობა, [წითელი]{"entity": "red", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
     - გამარჯობა, [წითელი]{"entity": "red", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
-    - გამარჯობა, [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
-    - გამარჯობა, [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
-    - სალამი, [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [მწვანე]{"entity": "green", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა, [მაისურები]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [მაისურები]{"entity": "t_shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"} რა ღირს?
+    - სალამი, [კაბს]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [მწვანე]{"entity": "green", "group": "1"} [კაბები]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [თეთრი]{"entity": "white", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [ნარინჯისფერი]{"entity": "orange", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [წითელი]{"entity": "red", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [XXL]{"entity": "size", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [XXL]{"entity": "size", "group": "1"} [კაბევი]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXS]{"entity": "size", "group": "1"} ზომის [მწვანე]{"entity": "green", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XS]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [S]{"entity": "size", "group": "1"} ზომის [თეთრი]{"entity": "white", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
@@ -167,92 +167,92 @@ nlu:
     - სალამი, [L]{"entity": "size", "group": "1"} ზომის [ნარინჯისფერი]{"entity": "orange", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXL]{"entity": "size", "group": "1"} ზომის [წითელი]{"entity": "red", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [XXS]{"entity": "size", "group": "1"} ზომის [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [XXL]{"entity": "size", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [XXS]{"entity": "size", "group": "1"} ზომის [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [კანები]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
-    - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფაშებში გაქვთ?
     - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასში ქაქვთ?
+    - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა გირს?
     - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში ქაქვთ?
     - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
     - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში ქაქვთ?
     - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
-    - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში ქაქვთ?
+    - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა გირს?
+    - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფაშებში ქაქვთ?
+    - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
     - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
+    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა გირს?
     - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
+    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა გირს?
     - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა გირს?
     - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა გირს?
+    - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა გირს?
     - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
     - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
+    - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა გირს?
     - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
     - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
     - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
     - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარალი]{"entity": "pants", "group": "1"}ი რა ღირს?
     - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
     - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
     - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [შარალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [შარალი]{"entity": "pants", "group": "1"}ი რა ღირს?
     - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
     - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
     - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარვლი]{"entity": "pants", "group": "1"}ი რა ღირს?
     - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
     - გამარჯობა, [XS]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
-    - გამარჯობა, [S]{"entity": "size", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [M]{"entity": "size", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"} რა ღირს?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"} რა ღირს?
+    - გამარჯობა, [S]{"entity": "size", "group": "1"} [შარვლი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [იისფერი]{"entity": "purple", "group": "1"} [შარვლი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [M]{"entity": "size", "group": "1"} [შარვლი]{"entity": "pants", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [იისფერი]{"entity": "purple", "group": "1"} [შარვლი]{"entity": "pants", "group": "1"} რა ღირს?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [XL]{"entity": "size", "group": "1"} [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
     - გამარჯობა, [L]{"entity": "size", "group": "1"} [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
-    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მაისურები]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [XXS]{"entity": "size", "group": "1"} [მასრები]{"entity": "t_shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [XXL]{"entity": "size", "group": "1"} [ყვითელი]{"entity": "yellow", "group": "1"} [მასრები]{"entity": "t_shirt", "group": "1"} რა ღირს?
     - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [კაბა]{"entity": "dress", "group": "1"} რა ღირს?
@@ -261,34 +261,34 @@ nlu:
     - გამარჯობა, [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
     - გამარჯობა, [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"} რა ღირს?
-    - გამარჯობა, [შარვალი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [შარვალი]{"entity": "pants", "group": "1"} რა ღირს?
-    - გამარჯობა, [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"} რა ღირს?
+    - გამარჯობა, [შარვლები]{"entity": "pants", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [იისფერი]{"entity": "purple", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [შარვლები]{"entity": "pants", "group": "1"} რა ღირს?
+    - გამარჯობა, [იისფერი]{"entity": "purple", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"} რა ღირს?
     - გამარჯობა, [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ის ფასი რაარის?
     - გამარჯობა, [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
     - გამარჯობა, [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"} რა ღირს?
-    - გამარჯობა, [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
-    - გამარჯობა, [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
-    - გამარჯობა, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [მასრები]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [ყვითელი]{"entity": "yellow", "group": "1"} [მასრები]{"entity": "t_shirt", "group": "1"}ის ფასი რაარის?
+    - გამარჯობა, [მასრები]{"entity": "t_shirt", "group": "1"} რა ღირს?
+    - გამარჯობა, [ყვითელი]{"entity": "yellow", "group": "1"} [მასრები]{"entity": "t_shirt", "group": "1"} რა ღირს?
     - სალამი, [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [იისფერი]{"entity": "purple", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [მასრები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [ყვითელი]{"entity": "yellow", "group": "1"} [მასრები]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXL]{"entity": "size", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXS]{"entity": "size", "group": "1"} ზომის [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XS]{"entity": "size", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [S]{"entity": "size", "group": "1"} ზომის [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [M]{"entity": "size", "group": "1"} ზომის [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - სალამი, [L]{"entity": "size", "group": "1"} ზომის [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [M]{"entity": "size", "group": "1"} ზომის [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - სალამი, [L]{"entity": "size", "group": "1"} ზომის [იისფერი]{"entity": "purple", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XL]{"entity": "size", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXL]{"entity": "size", "group": "1"} ზომის [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - სალამი, [XXL]{"entity": "size", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
@@ -296,162 +296,162 @@ nlu:
     - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
     - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - ზდარპვა [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
+    - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - ზდაროვა [ტყავის]{"entity": "Leather", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ღირს?
     - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
+    - ზდაროვა [ტყავის]{"entity": "Leather", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
     - სალამი, [ტყავის]{"entity": "Leather", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ტყავის]{"entity": "Leather", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - ჰაი [ტყავის]{"entity": "Leather", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
     - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
+    - ზდაროვა [ბამბის]{"entity": "Cotton", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
     - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - ზდაროვა [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
+    - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - ზდაროვა [ბამბის]{"entity": "Cotton", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ღირს?
     - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
+    - ზდაროვა [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
     - სალამი, [ბამბის]{"entity": "Cotton", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ბამბის]{"entity": "Cotton", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - სალამ, სალამ [ბამბის]{"entity": "Cotton", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
     - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
+    - ზდაროვა [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
     - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - ზდაროვა [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
+    - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - ზდაროვა [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ღირს?
     - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
+    - ზდაროვა [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
     - სალამი, [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - ზდაროვა [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
     - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
+    - ზდაროვა [მატყლის]{"entity": "Wool", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
     - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - ზდაროვა [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
+    - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - ზდაროვა [მატყლის]{"entity": "Wool", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ღირს?
     - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
+    - ზდაროვა [მატყლის]{"entity": "Wool", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
     - სალამი, [მატყლის]{"entity": "Wool", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [მატყლის]{"entity": "Wool", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
+    - ზდაროვა [მატყლის]{"entity": "Wool", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
     - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
+    - ზდაროვა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
     - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
-    - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - ზდაროვა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
+    - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - ზდაროვა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - ჰააააი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - ჰააააი, [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - ჰააააი, [ჯინსის]{"entity": "Denim", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
-    - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
+    - ჰააააი, [ჯინსის]{"entity": "Denim", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
-    - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - ჰააააი, [ჯინსის]{"entity": "Denim", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ღირს?
+    - ჰააააი, [ჯინსის]{"entity": "Denim", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [ჯინსის]{"entity": "Denim", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - ჰააააი, [ჯინსის]{"entity": "Denim", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [ჯინსის]{"entity": "Denim", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
+    - ჰააააი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი რა ღირს?
-    - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
-    - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
-    - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
+    - ჰააააი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი რა ფასებში გაქვთ?
+    - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი რა ღირს?
+    - ჰააააი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარვლები]{"entity": "pants", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი რა ღირს?
-    - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - ჰააააი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი რა ღირს?
-    - სალამი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
+    - ჰააააი, [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ფასებში გაქვთ?
     - გამარჯობა [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი რა ღირს?
 - intent: how_many_clothes
   examples: |
-    - სალამი, რამდენი [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - სალამი, რამდენი [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - ჰაი, მარაგში რამდენი [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [ცისფერი]{"entity": "light_blue", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ საწყობში?
+    - ჰააააი, რამდენი [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - ჰააააი, რამდენი [ლურჯი]{"entity": "blue", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - ჰაი, მარაგში რამდენი [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [ცისფერი]{"entity": "light_blue", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ საწყობში?
     - გამარჯობა, რა რაოდენობის [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი, რამდენი [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი, რა რაოდენობის [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - ჰააააი, რამდენი [იისფერი]{"entity": "purple", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - ჰააააი, რა რაოდენობის [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა,  რა რაოდენობის [შავი]{"entity": "black", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - სალამი, რამდენი [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ გადანახული??
+    - გამარჯობა, როგორ ხართ?, რამდენი [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ გადანახული??
     - ჰაი, რამდენი [ყვითელი]{"entity": "yellow", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
-    - სალამი, რამდენი [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - სალამი, რამდენი [მწვანე]{"entity": "green", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - ჰაი, მარაგში რამდენი [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [თეთრი]{"entity": "white", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ საწყობში?
+    - გამარჯობა, როგორ ხართ?, რამდენი [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ?, რამდენი [მწვანე]{"entity": "green", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
+    - ჰაი, მარაგში რამდენი [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [თეთრი]{"entity": "white", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ საწყობში?
     - გამარჯობა, რა რაოდენობის [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი, რამდენი [ნარინჯისფერი]{"entity": "orange", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
-    - სალამი, რა რაოდენობის [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ?, რამდენი [ნარინჯისფერი]{"entity": "orange", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
+    - გამარჯობა, როგორ ხართ?, რა რაოდენობის [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა,  რა რაოდენობის [წითელი]{"entity": "red", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
-    - სალამი, რამდენი [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ გადანახული??
+    - გამარჯობა, როგორ ხართ?, რამდენი [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ გადანახული??
     - ჰაი, რამდენი [ვარდისფერი]{"entity": "pink", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [წუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ტყავის]{"entity": "Leather", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [ქუდები]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ბამბის]{"entity": "Cotton", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [ქუდები]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [აბრეშუმის]{"entity": "Silk", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [ქუდები]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [მატყლის]{"entity": "Wool", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [ქუდები]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [სინთეტიკის]{"entity": "Synthetics", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [ქუდები]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [ჯინსის]{"entity": "Denim", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [კაბა]{"entity": "dress", "group": "1"}ი გაქვთ?
-    - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [ქუდი]{"entity": "hat", "group": "1"}ი გაქვთ?
+    - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [ქუდები]{"entity": "hat", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [შარვალი]{"entity": "pants", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [პერანგი]{"entity": "shirt", "group": "1"}ი გაქვთ?
     - გამარჯობა რამდენი [კაშმირის]{"entity": "Kashmir", "group": "1"} [მაისური]{"entity": "t_shirt", "group": "1"}ი გაქვთ?
